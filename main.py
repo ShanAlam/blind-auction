@@ -1,7 +1,7 @@
 from replit import clear
 from art import logo
-#HINT: You can call clear() to clear the output in the console.
 
+# Function which is used to find the higest bidder
 def find_highest_bidder(record):
   max_bid = 0
   highest_bidder = None
@@ -12,9 +12,12 @@ def find_highest_bidder(record):
       max_bid = bid_amount
   print(f"The highest bidder was {highest_bidder}, with a bid of £{max_bid}")
 
+# Variable which will keep track of the bidders names and bids
 bidding_record = {}
+
 not_done = "yes"
 
+# Main Loop
 while not_done == "yes":
   
   print(logo)
