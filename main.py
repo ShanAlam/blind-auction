@@ -1,7 +1,7 @@
 from replit import clear
 from art import logo
 
-# Function which is used to find the higest bidder
+# Function which is used to find the highest bidder
 def find_highest_bidder(record):
   max_bid = 0
   highest_bidder = None
